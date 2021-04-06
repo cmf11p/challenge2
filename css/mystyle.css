@@ -1,0 +1,32 @@
+body {
+  background-color: gainsboro;
+}
+
+/* Texto en parrafos */
+p {
+  font-size: 1.35rem;
+}
+
+legend {
+  font-size: 2rem;
+}
+
+/* Para pantallas de Desktop */
+@media (min-width: 900px) {
+  header.masthead {
+    padding-top: calc(8rem + 55px);
+    padding-bottom: 8rem;
+  }
+
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.25rem;
+  }
+}
